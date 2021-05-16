@@ -1,0 +1,8 @@
+Playbook is written in YAML format with a .yml file extension. One needs to be very careful with the format and alignment which makes it very sensitive.
+
+It contains the following sections:
+
+Every playbook starts with 3 hyphens ‘—‘
+Host section – Defines the target machines on which the playbook should run. This is based on the Ansible inventory file.
+Variable section – This is optional and can declare all the variables needed in the playbook. We will look at some examples as well.
+Tasks section – This section lists out all the tasks that should be executed on the target machine. It specifies the use of Modules. Every task has a name which is a small description of what the task will do and will be listed while the playbook is run.
